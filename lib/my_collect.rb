@@ -4,6 +4,5 @@ collection = []
       my_collect(collection)
       collection << yield (languages)
         counter += 1
-      end
 end
 
