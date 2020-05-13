@@ -4,5 +4,7 @@ collection = []
       while my_collect < languages.length
       collection << yield (languages[counter])
         counter += 1
+      end
+    collect
 end
 
