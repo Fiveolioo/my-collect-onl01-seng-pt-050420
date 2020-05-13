@@ -1,10 +1,9 @@
-def my_collect(languages)
-collection = []
-    counter = 0
-      while counter < languages.length
-      collection << yield(languages[counter])
-        counter += 1
-      end
-    collect
-end
 
+def my_collect(array)
+  i = 0
+  collect = []
+  while i < array.length
+    collect << yield(array[i])
+    i+=1
+  end
+  collect
