@@ -5,5 +5,5 @@ counter = 0
       collection << yield(languages[counter])
         counter += 1
       end
-    collect
+    collection
 end
